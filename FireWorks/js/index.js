@@ -17,7 +17,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('|#countdown 3||新|年|快|乐|希望|你喜欢|这个跨年仪式|2024 HAPPY NEW YEAR|在新的一年里|愿|你所念之人|平安喜乐|愿|你所想之事|顺心如意|制作不易|来个红包|安抚心灵');
+      S.UI.simulate('|#countdown 3||新|年|快|乐|希望|你喜欢|这个|跨年仪式|2024|HAPPY|NEW YEAR|在新的|一年里|愿|你所念之人|平安喜乐|愿|你所想之事|顺心如意|制作不易|来个红包|安抚心灵');
     }
 
     S.Drawing.loop(function () {
